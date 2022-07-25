@@ -1,0 +1,41 @@
+.contact-form {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.awesome {
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact-form form {
+  margin-top: 2rem;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.user {
+  padding-left: 1rem;
+  font-size: 14px;
+  margin-top: 1rem;
+  border-radius: 30px;
+  width: 20rem;
+  height: 1.5rem;
+  border: 2px solid #fc00ff;
+  box-shadow: 0px 4px 10px 1px #fb00ffa7;
+}
+.user:nth-child(3) {
+  padding-top: 1rem;
+  width: 20rem;
+  height: 15rem;
+}
+.button {
+  margin-top: 1rem;
+  width: 10rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+}

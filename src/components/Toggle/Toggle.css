@@ -1,0 +1,21 @@
+.toggle {
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+  flex-direction: row;
+  border: 3px solid #fc00ff;
+  width: 60px;
+  border-radius: 1rem;
+  position: relative;
+  padding: 2px;
+  cursor: pointer;
+}
+.toggle > * {
+  width: 25px;
+  height: 25px;
+}
+.toggle-button {
+  position: absolute;
+  border-radius: 100%;
+  background-color: #fc00ff;
+}
