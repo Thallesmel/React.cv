@@ -11,6 +11,7 @@ import SwiperCore, { Autoplay } from 'swiper';
 const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+  
   SwiperCore.use([Autoplay])
 
   return (
