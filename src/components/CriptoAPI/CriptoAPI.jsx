@@ -7,7 +7,6 @@ import { useState } from 'react';
 import Coin from './Coin';
 import './CriptoAPI.css';
 
-
 const CriptoAPI = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -25,34 +24,42 @@ const CriptoAPI = () => {
       })
       .catch((error) => console.log(error));
   }, []);
-  const handleChange = e => {
+  const handleChange = (e) => {
     setSearch(e.target.value);
-  }
+  };
 
-  const filteredCoins = coins.filter(coin =>
-    coin.name.toLowerCase().includes(search.toLowerCase()))
+  const filteredCoins = coins.filter((coin) =>
+    coin.name.toLowerCase().includes(search.toLowerCase())
+  );
 
   return (
-  <div className='coin-app'>
-    <div className="coin-search">
-        <h3 className="coin-text">Search a currency</h3>
+    <div className='coin-app'>
+      <div className='coin-search'>
+        <h3 className='coin-text'>Search a currency</h3>
         <form>
-            <input type="text" placeholder='Search' className='coin-input' onChange={handleChange}/>
-        </form>
-    </div>
-    {filteredCoins.map(coin => {
-      return (
-        <Coin key={coin.id}
-          name={coin.name}
-          image={coin.image}
-          symbol={coin.symbol}
-          marketcap={coin.market_cap}
-          price={coin.current_price}
-          priceChange={coin.price_change_percentage_24h}
+          <input
+            type='text'
+            placeholder='Search'
+            className='coin-input'
+            onChange={handleChange}
           />
-      
-)})}
-  </div>
-)};
+        </form>
+      </div>
+      {filteredCoins.map((coin) => {
+        return (
+          <Coin
+            key={coin.id}
+            name={coin.name}
+            image={coin.image}
+            symbol={coin.symbol}
+            marketcap={coin.market_cap}
+            price={coin.current_price}
+            priceChange={coin.price_change_percentage_24h}
+          />
+        );
+      })}
+    </div>
+  );
+};
 
 export default CriptoAPI;

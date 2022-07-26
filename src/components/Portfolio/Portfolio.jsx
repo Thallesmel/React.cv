@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { themeContext } from '../../context';
 import { useContext } from 'react';
 import Contact from '../../components/Contact/Contact';
-import Weather from '../WeatherAPI/Weather';
+import Game from '../Game/Game';
 import SwiperCore, { Autoplay } from 'swiper';
 import CriptoAPI from '../CriptoAPI/CriptoAPI';
 
@@ -85,7 +85,8 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className='projs'>
-            <Weather />
+            <span style={{position:"absolute", color:'white', marginTop:'2rem'}}>Memory game</span>
+          <Game />
           </div>
         </SwiperSlide>
       </Swiper>

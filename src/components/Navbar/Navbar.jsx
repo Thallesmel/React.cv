@@ -1,6 +1,8 @@
 import React from 'react';
 import './Navbar.css';
 import Toggle from '../Toggle/Toggle.jsx';
+import '../AboutMe/AboutMe';
+import AboutMe from '../AboutMe/AboutMe';
 
 const Navbar = () => {
   return (
@@ -13,7 +15,7 @@ const Navbar = () => {
         <div className='n-list'>
           <ul style={{ listStyleType: 'none' }}>
             <li>Home</li>
-            <li>About Me</li>
+            <li onClick={window.scrollTo(<AboutMe/>)}>About Me</li>
             <li>Experience</li>
           </ul>
         </div>
