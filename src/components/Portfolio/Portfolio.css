@@ -54,7 +54,7 @@
 }
 .portfolio .projs {
   display: flex;
-  flex-direction: column;
-  width: 80%;
+  width: 70%;
   height: 30rem;
+  justify-content: center;
 }

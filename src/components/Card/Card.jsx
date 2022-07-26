@@ -22,18 +22,16 @@ const Card = ({ emoji, heading, detail, experience }) => {
         className='c-div'
         style={darkMode ? { color: 'white' } : { color: 'var(--black)' }}
       >
-  <div class="skill-bars">
-    <div class="bar">
-      <div class="info">
-        <span>Experience Level</span>
-      </div>
-      <div class="progress-line html">
-        <span
-        style={{width:experience, content:experience}}
-        ></span>
-      </div>
-    </div>
-  </div>
+        <div className='skill-bars'>
+          <div className='bar'>
+            <div className='info'>
+              <span>Experience Level</span>
+            </div>
+            <div className='progress-line html'>
+              <span style={{ width: experience, content: experience }}></span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

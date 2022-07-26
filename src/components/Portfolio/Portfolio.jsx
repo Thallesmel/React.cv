@@ -5,14 +5,14 @@ import { themeContext } from '../../context';
 import { useContext } from 'react';
 import Contact from '../../components/Contact/Contact';
 import Weather from '../WeatherAPI/Weather';
-import Candycrush from '../CandyCrush/CandyCrush';
 import SwiperCore, { Autoplay } from 'swiper';
+import CriptoAPI from '../CriptoAPI/CriptoAPI';
 
 const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-  
-  SwiperCore.use([Autoplay])
+
+  SwiperCore.use([Autoplay]);
 
   return (
     <div className='portfolio'>
@@ -59,14 +59,12 @@ const Portfolio = () => {
           </path>
         </g>
       </svg>
-
       <span style={darkMode ? { color: 'white' } : { color: 'var(--black)' }}>
         Recent Projects
       </span>
       <span>Portfolio</span>
       <span>{'<'}</span>
       <span>{'>'}</span>
-
       <Swiper
         spaceBetween={1}
         slidesPerView={1}
@@ -75,20 +73,19 @@ const Portfolio = () => {
         autoplay={{ delay: 1000 }}
         allowSlideNext={true}
       >
-        
         <SwiperSlide>
           <div className='projs'>
-          <Contact />
+            <Contact />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='projs'>
-          <Candycrush/>
+            <CriptoAPI />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='projs'>
-          <Weather />
+            <Weather />
           </div>
         </SwiperSlide>
       </Swiper>

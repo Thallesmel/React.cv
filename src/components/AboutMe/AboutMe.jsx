@@ -44,7 +44,7 @@ const AboutMe = () => {
 
       <div className='cards'>
         <motion.div
-          style={{ left: '14rem'}}
+          style={{ left: '14rem' }}
           initial={{ left: '35em' }}
           whileInView={{ left: '14rem' }}
           transition={transition}
@@ -57,7 +57,7 @@ const AboutMe = () => {
           />
         </motion.div>
         <motion.div
-          style={{ top: '12rem', left: '-4rem'}}
+          style={{ top: '12rem', left: '-4rem' }}
           initial={{ left: '-15em' }}
           whileInView={{ left: '-4rem' }}
           transition={transition}
@@ -66,7 +66,7 @@ const AboutMe = () => {
             emoji={Coding}
             heading={'Coding'}
             experience={65}
-            detail={'JavaScript, HTML, CSS, React'}
+            detail={'JavaScript, Java, HTML, CSS, React, SQL'}
           />
         </motion.div>
         <motion.div

@@ -31,7 +31,7 @@ const Experience = () => {
             <stop offset='100%' stopColor='#FC00FF' />
           </linearGradient>
 
-          <clipPath id='shape-2' >
+          <clipPath id='shape-2'>
             <path
               fill='currentColor'
               d='M865,601.5Q779,703,698,781Q617,859,506.5,839Q396,819,326.5,748Q257,677,150,588.5Q43,500,139.5,404Q236,308,338,312Q440,316,526.5,234.5Q613,153,661,250.5Q709,348,830,424Q951,500,865,601.5Z'

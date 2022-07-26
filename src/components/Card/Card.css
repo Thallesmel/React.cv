@@ -1,4 +1,3 @@
-
 .card {
   width: 10rem;
   height: 14rem;
@@ -32,23 +31,23 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-.skill-bars .bar{
+.skill-bars .bar {
   padding: 5px;
   margin: 5px;
 }
-.skill-bars .bar:first-child{
+.skill-bars .bar:first-child {
   margin-top: 0px;
 }
-.skill-bars .bar .info{
+.skill-bars .bar .info {
   margin-bottom: 5px;
 }
-.skill-bars .bar .info span{
+.skill-bars .bar .info span {
   display: flex;
   font-weight: 500;
   font-size: 16px;
@@ -56,11 +55,11 @@
   animation: showText 0.5s 1s linear forwards;
 }
 @keyframes showText {
-  100%{
+  100% {
     opacity: 1;
   }
 }
-.skill-bars .bar .progress-line{
+.skill-bars .bar .progress-line {
   height: 10px;
   width: 100%;
   background: #f0f0f0;
@@ -68,16 +67,16 @@
   transform: scaleX(0);
   transform-origin: left;
   border-radius: 10px;
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
-              0 1px rgba(255,255,255,0.8);
-  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05),
+    0 1px rgba(255, 255, 255, 0.8);
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 @keyframes animate {
-  100%{
+  100% {
     transform: scaleX(1);
   }
 }
-.bar .progress-line span{
+.bar .progress-line span {
   display: flex;
   height: 100%;
   position: absolute;
@@ -85,13 +84,13 @@
   transform: scaleX(0);
   transform-origin: left;
   background: var(--blue);
-  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
-.bar .progress-line.html span{
+.bar .progress-line.html span {
   width: 80%;
 }
 
-.progress-line span::before{
+.progress-line span::before {
   display: flex;
   position: absolute;
   top: -10px;
@@ -105,7 +104,7 @@
   opacity: 0;
   animation: showText2 0.5s 1.5s linear forwards;
 }
-.progress-line span::after{
+.progress-line span::after {
   position: absolute;
   top: -28px;
   right: 0;
@@ -119,7 +118,7 @@
   animation: showText2 0.5s 1.5s linear forwards;
 }
 @keyframes showText2 {
-  100%{
+  100% {
     opacity: 1;
   }
 }

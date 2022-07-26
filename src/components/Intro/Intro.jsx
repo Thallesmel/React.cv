@@ -33,9 +33,15 @@ const Intro = () => {
             FrontEnd Developer, Software engineering student
           </span>
         </div>
-        <button className='button i-button'>Hire me</button>
+        <a
+          href='https://outlook.live.com/mail/0/?newmessage.com'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <button className='button i-button'>Hire me</button>
+        </a>
         <div className='i-icons'>
-          <a>
+          <a href=''>
             <img
               src={Github}
               onClick={() =>
