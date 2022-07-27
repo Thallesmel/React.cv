@@ -95,3 +95,41 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+//public inteface CRUD {
+//  public static void create(Cliente cliente) {
+//  
+//};
+//  public static void delete(int clienteId) {
+// 
+//};
+//  public static List<Cliente> find(String pesquisa){
+//  return null;
+//}
+//  public static Cliente finByPk(int clienteId) {
+//  return null;
+//}
+//  public static void update(Cliente cliente) {
+//  
+//}
+//
+//}
+
+//Servlet Dao
+//public class ClienteDao implements CRUD {
+//  
+//  public static void create(Cliente cliente) {
+//  
+//};
+//  public static void delete(int clienteId) {
+// 
+//};
+//  public static List<Cliente> find(String pesquisa){
+//  return null;
+//}
+//  public static Cliente finByPk(int clienteId) {
+//  return null;
+//}
+//  public static void update(Cliente cliente) {
+//  
+//}
+//}
