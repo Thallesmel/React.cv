@@ -4,6 +4,7 @@
   height: 90vh;
   margin-bottom: 8rem;
   margin-top: 10rem;
+  overflow: hidden;
 }
 .a-blur1 {
   left: -50rem;
@@ -106,10 +107,77 @@
   margin-top: 0.1rem;
   margin-bottom: 2rem;
 }
+
 .cards {
-  animation: uls 2s alternate infinite;
-  position: relative;
-}
-.cards > * {
   position: absolute;
+  margin-top: 30%;
+  width: 100%;
+  height: 35rem;
+}
+.cards1 > :nth-child(3) {
+  position: absolute;
+  margin-left: 25rem;
+  margin-top: -16rem;
+}
+.cards1 > :nth-child(2) {
+  position: absolute;
+  margin-left: 26rem;
+  margin-top: -5rem;
+}
+.cards1 > :nth-child(1) {
+  position: absolute;
+  margin-left: 28rem;
+  margin-bottom: 2rem;
+}
+.cards > :nth-child(4) {
+  opacity: 0;
+}
+@media screen and (max-width: 768px) {
+  .about-me {
+    height: 140vh;
+    overflow: hidden;
+  }
+  .a-button {
+    margin-left: 2%;
+  }
+  .about > ul {
+    justify-content: center;
+    margin-top: 100%;
+    position: absolute;
+    line-height: 9px;
+    width: 10rem;
+    height: 15rem;
+  }
+  .about > ul > li {
+    font-size: 10px;
+    margin-left: -15px;
+  }
+  a .about {
+    position: absolute;
+    height: 42vh;
+  }
+  .cards {
+    position: absolute;
+    margin-top: 130%;
+    width: 100%;
+    height: 35rem;
+  }
+  .cards1 > :nth-child(3) {
+    position: absolute;
+    margin-left: -15rem;
+    margin-top: 20rem;
+  }
+  .cards1 > :nth-child(2) {
+    position: absolute;
+    margin-left: 12rem;
+    margin-top: 15rem;
+  }
+  .cards1 > :nth-child(1) {
+    position: absolute;
+    margin-left: -18rem;
+    margin-top: 10rem;
+  }
+  .cards > :nth-child(4) {
+    opacity: 0;
+  }
 }

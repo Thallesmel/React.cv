@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
-import { useRef } from 'react';
+import React, { useState, useRef, useContext } from 'react';
 import './Contact.css';
 import emailjs from '@emailjs/browser';
 import { themeContext } from '../../context';
-import { useContext } from 'react';
 
 const Contact = () => {
   const theme = useContext(themeContext);
@@ -33,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='contact-form'>
+    <div className='contact-form' id='portfolio-section'>
       <div className='awesome'>
         <span style={darkMode ? { Color: 'white' } : { color: 'var(--black)' }}>
           Contact me

@@ -1,14 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import '../Experience/Experience.css';
 import { themeContext } from '../../context';
-import { useContext } from 'react';
 
 const Experience = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className='experience'>
+    <div className='experience' id='experience-section'>
       <svg
         style={{
           position: 'absolute',
@@ -70,10 +69,7 @@ const Experience = () => {
         </span>
         <span>Programming logic</span>
       </div>
-      <div
-        className='blur blur1'
-        style={{ marginBottom: '-15rem', left: '10rem' }}
-      ></div>
+
       <div className='achievement'>
         <div
           className='circle'

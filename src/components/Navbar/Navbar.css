@@ -1,4 +1,5 @@
 .n-wrapper {
+  width: 100%;
   height: 10vh;
   display: flex;
   justify-content: space-between;
@@ -33,7 +34,7 @@
   margin-right: 4rem;
   cursor: pointer;
 }
-.n-list > ul > li:hover {
+.n-list > ul > *:hover {
   border-bottom: 2px solid;
   border-radius: 2px;
   background-image: linear-gradient(to top, #fd83ff16, #ffffff00);
@@ -43,4 +44,40 @@
   flex: 2;
   width: 6rem;
   height: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .n-wrapper {
+    width: 100%;
+    padding: 0;
+  }
+  .n-left {
+    justify-content: space-between;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    height: 8%;
+  }
+  .n-list {
+    justify-content: center;
+    height: 5%;
+  }
+  .n-list > ul > li > * {
+    font-size: 14px;
+  }
+  .n-name {
+    margin-left: 10%;
+  }
+  .n-right {
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    margin-top: 20%;
+    width: 100%;
+    height: 8%;
+  }
+  .n-button {
+    margin-left: -35%;
+    position: absolute;
+    justify-content: center;
+  }
 }

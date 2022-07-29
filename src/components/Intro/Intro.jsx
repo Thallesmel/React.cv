@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Intro.css';
 import Github from '../../img/github-sign (1).png';
 import Instagram from '../../img/instagram (2).png';
@@ -8,7 +8,6 @@ import Img1 from '../../img/quality.png';
 import Img2 from '../../img/react.png';
 import Img3 from '../../img/software.png';
 import { themeContext } from '../../context';
-import { useContext } from 'react';
 import { motion } from 'framer-motion';
 
 const transition = { duration: 2, type: 'spring' };
@@ -18,7 +17,7 @@ const Intro = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className='intro'>
+    <div className='intro' id='portfilio-destination' name='portfilio-destiny'>
       <div className='i-left'>
         <div className='i-name'>
           <span
@@ -187,12 +186,7 @@ const Intro = () => {
           </g>
         </svg>
 
-        <svg
-          width='1000'
-          height='1000'
-          viewBox='0 0 1000 1000'
-          xmlns='http://www.w3.org/2000/svg'
-        >
+        <svg viewBox='0 0 1000 1000' xmlns='http://www.w3.org/2000/svg'>
           <defs>
             <linearGradient
               id='linearGradientId-3'
@@ -311,13 +305,6 @@ const Intro = () => {
           </g>
         </svg>
         <img src={Thalles} id='profilepic' />
-        <motion.img
-          initial={{ left: '-10%' }}
-          whileInView={{ left: '17%' }}
-          transition={transition}
-          src={Img3}
-          alt=''
-        />
         <motion.div
           initial={{ left: '80%' }}
           whileInView={{ left: '60%' }}

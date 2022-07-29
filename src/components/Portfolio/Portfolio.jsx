@@ -85,8 +85,16 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className='projs'>
-            <span style={{position:"absolute", color:'white', marginTop:'2rem'}}>Memory game</span>
-          <Game />
+            <span
+              style={{
+                position: 'absolute',
+                color: 'white',
+                marginTop: '2rem',
+              }}
+            >
+              Memory game
+            </span>
+            <Game />
           </div>
         </SwiperSlide>
       </Swiper>
@@ -97,10 +105,10 @@ const Portfolio = () => {
 export default Portfolio;
 //public inteface CRUD {
 //  public static void create(Cliente cliente) {
-//  
+//
 //};
 //  public static void delete(int clienteId) {
-// 
+//
 //};
 //  public static List<Cliente> find(String pesquisa){
 //  return null;
@@ -109,19 +117,19 @@ export default Portfolio;
 //  return null;
 //}
 //  public static void update(Cliente cliente) {
-//  
+//
 //}
 //
 //}
 
 //Servlet Dao
 //public class ClienteDao implements CRUD {
-//  
+//
 //  public static void create(Cliente cliente) {
-//  
+//
 //};
 //  public static void delete(int clienteId) {
-// 
+//
 //};
 //  public static List<Cliente> find(String pesquisa){
 //  return null;
@@ -130,6 +138,6 @@ export default Portfolio;
 //  return null;
 //}
 //  public static void update(Cliente cliente) {
-//  
+//
 //}
 //}
