@@ -64,8 +64,9 @@
     opacity: 0;
   }
   .portfolio {
-    padding-top: 10rem;
-    height: 120vh;
+    padding-top: 100rem;
+    padding-bottom: 20rem;
+    height: 220vh;
   }
   .projs {
     margin-top: -15%;

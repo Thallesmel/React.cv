@@ -134,8 +134,10 @@
 }
 @media screen and (max-width: 768px) {
   .about-me {
-    height: 140vh;
-    overflow: hidden;
+    height: 150vh;
+    overflow: visible;
+    position: absolute;
+    width: 100%;
   }
   .a-button {
     margin-left: 2%;
@@ -152,7 +154,7 @@
     font-size: 10px;
     margin-left: -15px;
   }
-  a .about {
+  .about {
     position: absolute;
     height: 42vh;
   }
