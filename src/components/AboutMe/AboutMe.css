@@ -132,12 +132,117 @@
 .cards > :nth-child(4) {
   opacity: 0;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 375px) {
   .about-me {
-    height: 150vh;
+    height: 60vh;
     overflow: visible;
     position: absolute;
     width: 100%;
+    margin-top: 16rem;
+  }
+  .a-button {
+    margin-left: 2%;
+  }
+  .about > ul {
+    justify-content: center;
+    margin-top: 100%;
+    position: absolute;
+    line-height: 9px;
+    width: 10rem;
+    height: 15rem;
+  }
+  .about > ul > li {
+    font-size: 10px;
+    margin-left: -15px;
+  }
+  .about {
+    position: absolute;
+    height: 42vh;
+  }
+  .cards {
+    position: absolute;
+    margin-top: 130%;
+    width: 100%;
+    height: 35rem;
+  }
+  .cards1 > :nth-child(3) {
+    position: absolute;
+    margin-left: -15rem;
+    margin-top: 20rem;
+  }
+  .cards1 > :nth-child(2) {
+    position: absolute;
+    margin-left: 12rem;
+    margin-top: 15rem;
+  }
+  .cards1 > :nth-child(1) {
+    position: absolute;
+    margin-left: -18rem;
+    margin-top: 10rem;
+  }
+  .cards > :nth-child(4) {
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 390px) {
+  .about-me {
+    height: 50vh;
+    overflow: visible;
+    position: absolute;
+    width: 100%;
+  }
+  .a-button {
+    margin-left: 2%;
+  }
+  .about > ul {
+    justify-content: center;
+    margin-top: 100%;
+    position: absolute;
+    line-height: 9px;
+    width: 10rem;
+    height: 15rem;
+  }
+  .about > ul > li {
+    font-size: 10px;
+    margin-left: -15px;
+  }
+  .about {
+    position: absolute;
+    height: 42vh;
+  }
+  .cards {
+    position: absolute;
+    margin-top: 130%;
+    width: 100%;
+    height: 35rem;
+  }
+  .cards1 > :nth-child(3) {
+    position: absolute;
+    margin-left: -15rem;
+    margin-top: 20rem;
+  }
+  .cards1 > :nth-child(2) {
+    position: absolute;
+    margin-left: 12rem;
+    margin-top: 15rem;
+  }
+  .cards1 > :nth-child(1) {
+    position: absolute;
+    margin-left: -18rem;
+    margin-top: 10rem;
+  }
+  .cards > :nth-child(4) {
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 360px) {
+  .about-me {
+    height: 50vh;
+    overflow: visible;
+    position: absolute;
+    width: 100%;
+    margin-top: 12rem;
   }
   .a-button {
     margin-left: 2%;

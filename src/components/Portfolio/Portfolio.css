@@ -59,8 +59,37 @@
   height: 30rem;
   justify-content: center;
 }
+@media screen and (min-width: 360px) {
+  .portfolio > :nth-child(1) {
+    opacity: 0;
+  }
+  .portfolio {
+    padding-top: 110rem;
+    padding-bottom: 20rem;
+    height: 220vh;
+  }
+  .projs {
+    margin-top: -15%;
+    transform: scale(0.6);
+  }
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 375px) {
+  .portfolio > :nth-child(1) {
+    opacity: 0;
+  }
+  .portfolio {
+    padding-top: 110rem;
+    padding-bottom: 20rem;
+    height: 220vh;
+  }
+  .projs {
+    margin-top: -15%;
+    transform: scale(0.6);
+  }
+}
+
+@media screen and (min-width: 768px) {
   .portfolio > :nth-child(1) {
     opacity: 0;
   }

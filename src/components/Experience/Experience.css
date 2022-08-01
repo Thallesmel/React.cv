@@ -22,31 +22,58 @@
     font-size: 12px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (min-width: 360px) {
   .experience {
     overflow: hidden;
     position: absolute;
-    margin-top: 135vh;
+    margin-top: 150vh;
+    height: 105vh;
+    width: 100%;
+    gap: 1rem;
+  }
+}
+@media screen and (min-width: 375px) {
+  .experience {
+    overflow: hidden;
+    position: absolute;
+    margin-top: 190vh;
+    height: 105vh;
+    width: 100%;
+    gap: 1rem;
+  }
+}
+@media screen and (min-height: 812px) {
+  .experience {
+    overflow: hidden;
+    position: absolute;
+    margin-top: 140vh;
+    height: 105vh;
+    width: 100%;
+    gap: 1rem;
+  }
+}
+@media screen and (min-width: 390px) {
+  .experience {
+    overflow: hidden;
+    position: absolute;
+    margin-top: 145vh;
     margin-bottom: 10rem;
     height: 105vh;
     width: 100%;
     gap: 1rem;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 410px) {
   .experience {
     overflow: hidden;
     position: absolute;
-    margin-top: 145vh;
-    height: 100vh;
+    margin-top: 124vh;
+    margin-bottom: 10rem;
+    height: 105vh;
     width: 100%;
     gap: 1rem;
   }
-  .achievement span:nth-child(3) {
-    font-size: 12px;
-  }
 }
-
 .achievement {
   display: flex;
   flex-direction: column;

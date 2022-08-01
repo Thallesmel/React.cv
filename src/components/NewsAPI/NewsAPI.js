@@ -14,7 +14,7 @@ const NewsAPI = () => {
         'https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=' +
           apiKey +
           ''
-      );  
+      );
       setArticles(res.data.articles);
     };
     getArticles();
