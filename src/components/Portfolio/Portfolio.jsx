@@ -1,12 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Portfolio.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { themeContext } from '../../context';
-import { useContext } from 'react';
 import Contact from '../../components/Contact/Contact';
-import Game from '../Game/Game';
 import SwiperCore, { Autoplay } from 'swiper';
 import CriptoAPI from '../CriptoAPI/CriptoAPI';
+import NewsAPI from '../NewsAPI/NewsAPI';
 
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -85,16 +84,7 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className='projs'>
-            <span
-              style={{
-                position: 'absolute',
-                color: 'white',
-                marginTop: '2rem',
-              }}
-            >
-              Memory game
-            </span>
-            <Game />
+            <NewsAPI />
           </div>
         </SwiperSlide>
       </Swiper>
@@ -140,4 +130,4 @@ export default Portfolio;
 //  public static void update(Cliente cliente) {
 //
 //}
-//} 
+//}

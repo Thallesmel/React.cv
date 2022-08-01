@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import Card from '../Card/Card.jsx';
 import Book from '../../img/book-stack.png';
+import Cv from '../../img/cv.pdf';
 import Coding from '../../img/binary-code.png';
 import People from '../../img/people.png';
 import { themeContext } from '../../context';
@@ -21,7 +22,7 @@ const AboutMe = () => {
         <span style={darkMode ? { color: 'var(--gray)' } : { color: 'white' }}>
           Age, Nationality, Lenguage levels, Hobbies, Goals, Address
         </span>
-        <a style={{ width: '8rem' }} href={Book} download>
+        <a style={{ width: '8rem' }} href={Cv} download>
           <button className='button a-button'>Download CV</button>
         </a>
         <ul style={darkMode ? { color: 'white' } : { color: 'black' }}>

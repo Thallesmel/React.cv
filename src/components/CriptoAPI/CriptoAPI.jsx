@@ -1,15 +1,9 @@
-import React from 'react';
-import { themeContext } from '../../context';
-import { useContext } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { useEffect } from 'react';
-import { useState } from 'react';
 import Coin from './Coin';
 import './CriptoAPI.css';
 
 const CriptoAPI = () => {
-  const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
   const [coins, setCoins] = useState([]);
   const [search, setSearch] = useState('');
 
