@@ -14,7 +14,7 @@ const NewsAPI = () => {
         'https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=' +
           apiKey +
           ''
-      );
+      );  
       setArticles(res.data.articles);
     };
     getArticles();
@@ -22,15 +22,14 @@ const NewsAPI = () => {
 
   return (
     <div className='newsAPI'>
-      {articles.map(({ tittle, description, url, urlToImage }) => (
+      {articles.map(({ title, description, url, urlToImage }) => (
         <NewsItem
-          title={tittle}
+          title={title}
           description={description}
           url={url}
           urlToImage={urlToImage}
         />
       ))}
-      ;
     </div>
   );
 };

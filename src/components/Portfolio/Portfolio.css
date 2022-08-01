@@ -59,6 +59,7 @@
   height: 30rem;
   justify-content: center;
 }
+
 @media screen and (max-width: 768px) {
   .portfolio > :nth-child(1) {
     opacity: 0;

@@ -1,13 +1,12 @@
 import React from 'react';
+import './NewsAPI.css';
 
 const NewsItem = ({ title, description, url, urlToImage }) => {
   return (
-    <div>
-      <img src={urlToImage} alt='new image' />
-      <h3>
-        <a href={url}>{title}</a>
-      </h3>
-      <p>{description}</p>
+    <div className='news-item'>
+      <img className='news-img' src={urlToImage} alt='new image' />
+      <a className='news-title' href={url}>{title}</a>
+      <p className='news-description'>{description}</p>
     </div>
   );
 };
