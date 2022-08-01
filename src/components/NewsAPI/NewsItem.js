@@ -4,7 +4,7 @@ import './NewsAPI.css';
 const NewsItem = ({ title, description, url, urlToImage }) => {
   return (
     <div className='news-item'>
-      <img className='news-img' src={urlToImage} alt='new image' />
+      <img className='news-img' src={urlToImage} alt='new' />
       <div className='text-box'>
         <a className='news-title' href={url}>
           {title}
