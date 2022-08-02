@@ -277,7 +277,9 @@
     position: relative;
     display: flex;
     padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 5px;
+    margin-left: 5%;
     flex: 1;
     flex-direction: column;
     display: flex;
@@ -290,6 +292,7 @@
     box-shadow: 7px 7px 1px 5px #fb00ff37;
     transition: 0.5s;
     animation: uls 2s alternate infinite;
+    transform: scale(1.2);
   }
   .about > ul:hover {
     background-color: #00aeff14;
