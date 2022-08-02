@@ -94,6 +94,7 @@
     opacity: 0;
   }
   .portfolio {
+    overflow: hidden;
     padding-top: 100rem;
     padding-bottom: 20rem;
     height: 220vh;
