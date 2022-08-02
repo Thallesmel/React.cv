@@ -69,7 +69,6 @@ const Portfolio = () => {
         slidesPerView={1}
         grabCursor={true}
         className='portfolio-slider'
-        allowSlideNext={true}
       >
         <SwiperSlide>
           <div className='projs'>
