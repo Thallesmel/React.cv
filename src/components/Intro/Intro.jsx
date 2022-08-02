@@ -6,7 +6,6 @@ import Thalles from '../../img/profile.jpeg';
 import { FloatingDiv } from '../FloatingDivs/FloatingDiv';
 import Img1 from '../../img/quality.png';
 import Img2 from '../../img/react.png';
-import Img3 from '../../img/software.png';
 import { themeContext } from '../../context';
 import { motion } from 'framer-motion';
 
