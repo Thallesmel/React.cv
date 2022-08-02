@@ -69,7 +69,6 @@ const Portfolio = () => {
         slidesPerView={1}
         grabCursor={true}
         className='portfolio-slider'
-        autoplay={{ delay: 1000 }}
         allowSlideNext={true}
       >
         <SwiperSlide>
