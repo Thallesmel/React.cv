@@ -1,7 +1,7 @@
 {
   "name": "starter",
   "version": "0.1.0",
-  "homepage": "https://thallesmel.github.io/React-cv/",
+  "homepage": "https://thallesmel.github.io/React.cv/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
