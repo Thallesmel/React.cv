@@ -2,7 +2,7 @@
   "name": "starter",
   "version": "0.1.0",
   "homepage": "https://thallesmel.github.io/React.cv/",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.14.1",
