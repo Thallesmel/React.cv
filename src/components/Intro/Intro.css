@@ -137,6 +137,9 @@
   color: var(--gray);
   margin-top: 10px;
 }
+.i-left>:nth-child(2){
+  width: 30%;
+}
 .i-button {
   width: 6rem;
   height: 2rem;
@@ -194,6 +197,9 @@
     padding: 1rem;
     margin-top: 30%;
     overflow: hidden;
+  }
+  .i-left>:nth-child(2){
+    width: 60%;
   }
   .i-right {
     width: 10%;

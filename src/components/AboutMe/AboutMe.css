@@ -133,58 +133,6 @@
   opacity: 0;
 }
 
-@media screen and (min-width: 375px) {
-  .about-me {
-    height: 60vh;
-    overflow: visible;
-    position: absolute;
-    width: 100%;
-    margin-top: 16rem;
-  }
-  .a-button {
-    margin-left: 2%;
-  }
-  .about > ul {
-    justify-content: center;
-    margin-top: 100%;
-    position: absolute;
-    line-height: 9px;
-    width: 10rem;
-    height: 15rem;
-  }
-  .about > ul > li {
-    font-size: 10px;
-    margin-left: -15px;
-  }
-  .about {
-    position: absolute;
-    height: 42vh;
-  }
-  .cards {
-    position: absolute;
-    margin-top: 130%;
-    width: 100%;
-    height: 35rem;
-  }
-  .cards1 > :nth-child(3) {
-    position: absolute;
-    margin-left: -15rem;
-    margin-top: 20rem;
-  }
-  .cards1 > :nth-child(2) {
-    position: absolute;
-    margin-left: 12rem;
-    margin-top: 15rem;
-  }
-  .cards1 > :nth-child(1) {
-    position: absolute;
-    margin-left: -18rem;
-    margin-top: 10rem;
-  }
-  .cards > :nth-child(4) {
-    opacity: 0;
-  }
-}
 @media screen and (min-width: 390px) {
   .about-me {
     height: 50vh;
@@ -242,7 +190,7 @@
     overflow: visible;
     position: absolute;
     width: 100%;
-    margin-top: 12rem;
+    margin-top: 14rem;
   }
   .a-button {
     margin-left: 2%;
@@ -283,6 +231,85 @@
     position: absolute;
     margin-left: -18rem;
     margin-top: 10rem;
+  }
+  .cards > :nth-child(4) {
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 780px) {
+  .about-me {
+    padding: 0 1rem 1.5rem;
+    height: 130vh;
+    margin-bottom: 8rem;
+    margin-top: 10rem;
+    overflow: hidden;
+  }
+  .a-button {
+    margin-left: 2%;
+  }
+  .about > ul {
+    justify-content: center;
+    margin-top: 10%;
+    position: absolute;
+    line-height: 9px;
+    width: 10rem;
+    height: 15rem;
+  }
+  .about > ul > li {
+    font-size: 10px;
+    margin-left: -15px;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .cards {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 10%;
+    width: 100%;
+    height: 35rem;
+  }
+  .about > ul {
+    list-style: none;
+    top: 1rem;
+    position: relative;
+    display: flex;
+    padding-top: 15px;
+    padding-right: 5px;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    width: 13rem;
+    height: 20rem;
+    line-height: 13px;
+    border-radius: 20px;
+    background-color: #fb00ff14;
+    border: 2px solid var(--blue);
+    box-shadow: 7px 7px 1px 5px #fb00ff37;
+    transition: 0.5s;
+    animation: uls 2s alternate infinite;
+  }
+  .about > ul:hover {
+    background-color: #00aeff14;
+    box-shadow: 7px 7px 1px 5px #00547b62;
+    transform: scale(1.1);
+  }
+  .cards1 > :nth-child(3) {
+    position: absolute;
+    margin-left: 25rem;
+    margin-top: -16rem;
+  }
+  .cards1 > :nth-child(2) {
+    position: absolute;
+    margin-left: 26rem;
+    margin-top: -5rem;
+  }
+  .cards1 > :nth-child(1) {
+    position: absolute;
+    margin-left: 28rem;
+    margin-top: 5rem;
   }
   .cards > :nth-child(4) {
     opacity: 0;
