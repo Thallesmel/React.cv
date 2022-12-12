@@ -56,7 +56,7 @@
 .about > ul:hover {
   background-color: #00aeff14;
   box-shadow: 7px 7px 1px 5px #00547b62;
-  transform: scale(1.1);
+  transform: scale(1.5);
 }
 @keyframes uls {
   0% {
